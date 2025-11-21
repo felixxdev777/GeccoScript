@@ -1,1 +1,93 @@
+HOW TO USE GeccoScript
 
+GeccoScript is a lightweight, multi-purpose programming language. This guide shows how to install and run it on Windows, Linux, and Android.
+
+
+---
+
+1️⃣ Windows
+
+Requirements: Python 3.10+ installed
+
+1. Download the GeccoScript project folder.
+
+
+2. Open Command Prompt and navigate to the project folder:
+
+cd C:\path\to\GeccoScript
+
+
+3. Run a GeccoScript file:
+
+python src\geccoscript\interpreter.py examples\factorial.gco
+
+
+4. Enjoy scripting!
+
+
+
+> Optional: Install VSCode or any editor for better experience.
+
+
+
+
+---
+
+2️⃣ Linux (Ubuntu/Kali/etc.)
+
+Requirements: Python 3.10+
+
+1. Open Terminal.
+
+
+2. Navigate to the project folder:
+
+cd ~/Downloads/GeccoScript
+
+
+3. Run a GeccoScript file:
+
+python3 src/geccoscript/interpreter.py examples/factorial.gco
+
+
+4. Optional: Make the interpreter executable:
+
+chmod +x src/geccoscript/interpreter.py
+./src/geccoscript/interpreter.py examples/factorial.gco
+
+
+
+
+---
+
+3️⃣ Android
+
+Option A: Using Termux (recommended for full experience)
+
+1. Install Termux from Play Store.
+
+
+2. Install Python in Termux:
+
+pkg install python
+
+
+3. Copy GeccoScript folder to Termux storage (usually ~/storage/downloads/GeccoScript).
+
+
+4. Navigate to the folder:
+
+cd ~/storage/downloads/GeccoScript
+
+
+5. Run a script:
+
+python src/geccoscript/interpreter.py examples/factorial.gco
+
+
+
+Option B: Using Code Editors (like Acode, Dcoder)
+
+Open the project folder inside the editor.
+
+Open any .gco file and run via the built-in Python terminal.
